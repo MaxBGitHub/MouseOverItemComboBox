@@ -45,9 +45,10 @@ There is no need to wrap your head around these.
 
 
 # Implementation
-I will show you step by step how to create a combo box class that implements the above native functions and structures.
+Step by step implementation of a combo box class that implements the native functions and structures above.
 The code was written in C# with Visual Studio 2017 using the .Net 4.5.2 framework.
 You will need the following namespaces:
+
 * System.Runtime.InteropServices
 * System.Windows.Forms
 * System.Drawing
@@ -59,16 +60,6 @@ You will need the following namespaces:
 Create a new class that derives from the System.Windows.Forms.ComboBox class.
 I will call it MouseOverItemComboBox.
 ``` csharp
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Drawing;
-using System;
-
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Drawing;
-using System;
-
 namespace X.Y.Z
 {   
     class MouseOverItemComboBox : ComboBox
