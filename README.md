@@ -1,4 +1,4 @@
-# MouseOverItemComboBox
+# Combo box item from mouse position
 How to get the index of the combo box item which is currently under the cursor.
 
 The provided code is written in C# for the Windows Forms library of the .NET Framework
